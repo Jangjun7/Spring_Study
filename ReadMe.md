@@ -51,7 +51,7 @@ Spring Framework
 2) @Import
 
 
-의존 자동 주입
+<h3>의존 자동 주입</h3>
 1. @Autowired
     - 멤버 변수
     - setter 메서드 : 의존성을 주입, 호출
@@ -76,7 +76,7 @@ Spring Framework
 
    @Nullable : setter 메서드는 호출, 의존하는 객체가 없으면 null 을 주입
 
-컴포넌트 스캔
+<h3>컴포넌트 스캔</h3>
 1. @Component
 2. @ComponentScan
 3. 기본 스캔 대상
@@ -85,7 +85,7 @@ Spring Framework
     - 수동 등록한 빈과 충돌
     - excludeFilters
 
-빈 라이프 사이클과 범위
+<h3>빈 라이프 사이클과 범위</h3>
 1. 컨테이너 초기화 : 빈 객체의 생성, 의존 주입, 초기화
 
 2. 컨테이너 종료 : 빈 객체의 소멸
