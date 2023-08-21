@@ -3,9 +3,6 @@ package exam03.config;
 import exam03.models.member.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import java.util.List;
-
 @Configuration
 public class AppCtx {
     @Bean // 스프링 관련 객체임을 알려주는 애노테이션

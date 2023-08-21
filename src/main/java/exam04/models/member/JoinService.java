@@ -1,16 +1,17 @@
-package exam03.models.member;
+package exam04.models.member;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+@Service
 public class JoinService {
 
     //@Autowired
     //private MemberDao memberDao;
     @Autowired
-    @Qualifier("memberDao2")
     private Optional<MemberDao> opt;
 
     @Autowired
