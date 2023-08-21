@@ -13,6 +13,11 @@ public class AppCtx3 {
     }
 
     @Bean
+    public MemberDao memberDao2() {
+        return new MemberDao();
+    }
+
+    @Bean
     public JoinValidator joinValidator() {
         return new JoinValidator();
     }
